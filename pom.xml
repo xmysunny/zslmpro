@@ -45,5 +45,8 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>eureka</module>
+    </modules>
 
 </project>
