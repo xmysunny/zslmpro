@@ -2,7 +2,10 @@ package com.example.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
+//哈哈哈哈哈哈哈
+@EnableEurekaClient
 @SpringBootApplication
 public class UserApplication {
 
