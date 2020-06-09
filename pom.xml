@@ -54,6 +54,7 @@
         <module>eureka</module>
         <module>user</module>
         <module>common</module>
+        <module>category</module>
     </modules>
 
 </project>
