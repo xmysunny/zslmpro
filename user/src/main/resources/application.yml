@@ -1,11 +1,5 @@
-
 server:
   port: 4040
-
-
-order:
-  ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.
 
 
 eureka:
@@ -20,9 +14,4 @@ eureka:
 spring:
   application:
     name: user
-
-
-feign:
-  hystrix:
-    enabled: true
 

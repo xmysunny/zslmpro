@@ -10,19 +10,23 @@ import java.util.Date;
  * @BelongsProject: zslmpro
  * @BelongsPackage: com.example.common.pojo
  * @Author: 殷俊
- * @CreateTime: 2020-06-09 17:12
- * @Description: 角色
+ * @CreateTime: 2020-06-09 17:13
+ * @Description: 菜单
  */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class role {
-    /** 角色id */
+public class Menu {
+    /** id */
     private Integer id ;
-    /** 角色名称 */
-    private String roleName ;
-    /** 角色描述 */
-    private String describle ;
+    /** 菜单名称 */
+    private String menuName ;
+    /** 父id */
+    private Integer parentId ;
+    /** 图标 */
+    private String iconcls ;
+    /** 地址 */
+    private String url ;
     /** 创建时间 */
     private Date createdTime ;
     /** 更新时间 */

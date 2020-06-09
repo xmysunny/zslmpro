@@ -16,7 +16,7 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class user {
+public class User {
     /** 用户id */
     private Integer id ;
     /** 账号 */
