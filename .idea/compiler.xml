@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user" />
+        <module name="product" />
+        <module name="common" />
+        <module name="eureka" />
+        <module name="zslmpro" />
+        <module name="category" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="category" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="product" target="1.8" />
+      <module name="user" target="1.8" />
+      <module name="zslmpro" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="category" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="product" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="zslmpro" options="-parameters" />
+    </option>
+  </component>
+</project>
